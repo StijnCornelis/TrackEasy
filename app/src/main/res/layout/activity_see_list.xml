@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SeeListActivity"
+    android:background="#70ACB1"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="375dp"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/logo"
+        />
+    <TextView
+        android:text="Gsm-oplader"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/TextViewName"
+        android:gravity="center_horizontal"
+        android:layout_centerInParent="true"
+        android:textSize="40sp"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="70dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_button"
+        android:textColor="#ffff"
+        android:text="Show Location"
+        android:id="@+id/btnMap"/>
+</LinearLayout>
+
+
+
+

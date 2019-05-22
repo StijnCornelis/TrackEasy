@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "580580319691",
+    "firebase_url": "https://trackeasy-2249c.firebaseio.com",
+    "project_id": "trackeasy-2249c",
+    "storage_bucket": "trackeasy-2249c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:580580319691:android:84414457535a6435",
+        "android_client_info": {
+          "package_name": "com.example.trackeasyof"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "580580319691-h1s73dphs4i1htk8louinip34h90vnhr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.trackeasyof",
+            "certificate_hash": "93c55407ea3f3764d3b08e7daa973cc72e92003a"
+          }
+        },
+        {
+          "client_id": "580580319691-kk91art0ndl0lcm8b4f3f8otb8mu7knf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCScEnS27jkw3CFipncF_2gicalKMtB5M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "580580319691-kk91art0ndl0lcm8b4f3f8otb8mu7knf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

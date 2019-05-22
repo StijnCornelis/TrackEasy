@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#70ACB1"
+    >
+
+    <ImageView
+
+        android:layout_width="375dp"
+        android:layout_height="400dp"
+        app:srcCompat="@drawable/logo"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_button"
+        android:textColor="#ffff"
+        android:text="Add product"
+        android:id="@+id/AddProduct"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_button"
+        android:textColor="#ffff"
+        android:text="See List"
+        android:id="@+id/SeeList"
+        android:layout_marginTop="20dp"/>
+
+
+</LinearLayout>
